@@ -1,0 +1,77 @@
+2021-05-06 16:13:57.227+02:00 [DESKTOP-GC04ULQ][D:2][T:1][ERROR] DotNetNuke.Web.DependencyInjectionInitialize - Unable to configure services for DotNetNuke, Version=9.9.0.0, Culture=neutral, PublicKeyToken=null, see exception for details 
+- LoaderException: Could not load file or assembly 'PetaPoco, Version=6.0.415.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at DotNetNuke.DependencyInjection.Extensions.TypeExtensions.SafeGetTypes(Assembly assembly, ILog logger) in C:\Users\MB\Desktop\DNN\Dnn.Platform-9.9.1_2\Dnn.Platform-9.9.1\DNN Platform\DotNetNuke.DependencyInjection\Extensions\TypeExtensions.cs:line 51
+2021-05-06 16:13:58.469+02:00 [DESKTOP-GC04ULQ][D:2][T:1][ERROR] DotNetNuke.Web.Extensions.StartupExtensions - Unable to configure services for DotNetNuke, Version=9.9.0.0, Culture=neutral, PublicKeyToken=null, see exception for details 
+- LoaderException: Could not load file or assembly 'PetaPoco, Version=6.0.415.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at DotNetNuke.DependencyInjection.Extensions.TypeExtensions.SafeGetTypes(Assembly assembly, ILog logger) in C:\Users\MB\Desktop\DNN\Dnn.Platform-9.9.1_2\Dnn.Platform-9.9.1\DNN Platform\DotNetNuke.DependencyInjection\Extensions\TypeExtensions.cs:line 51
+2021-05-06 16:13:58.912+02:00 [DESKTOP-GC04ULQ][D:2][T:1][ERROR] DotNetNuke.Web.Extensions.StartupExtensions - Unable to configure services for System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, see exception for details 
+- LoaderException: Could not load file or assembly 'Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at DotNetNuke.DependencyInjection.Extensions.TypeExtensions.SafeGetTypes(Assembly assembly, ILog logger) in C:\Users\MB\Desktop\DNN\Dnn.Platform-9.9.1_2\Dnn.Platform-9.9.1\DNN Platform\DotNetNuke.DependencyInjection\Extensions\TypeExtensions.cs:line 51
+2021-05-06 16:13:59.125+02:00 [DESKTOP-GC04ULQ][D:2][T:1][ERROR] DotNetNuke.Web.Extensions.StartupExtensions - Unable to configure services for System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, see exception for details 
+- LoaderException: Could not load file or assembly 'Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at DotNetNuke.DependencyInjection.Extensions.TypeExtensions.SafeGetTypes(Assembly assembly, ILog logger) in C:\Users\MB\Desktop\DNN\Dnn.Platform-9.9.1_2\Dnn.Platform-9.9.1\DNN Platform\DotNetNuke.DependencyInjection\Extensions\TypeExtensions.cs:line 51
+2021-05-06 16:13:59.722+02:00 [DESKTOP-GC04ULQ][D:2][T:1][ERROR] DotNetNuke.Web.DependencyInjectionInitialize - Unable to configure services for System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, see exception for details 
+- LoaderException: Could not load file or assembly 'Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at DotNetNuke.DependencyInjection.Extensions.TypeExtensions.SafeGetTypes(Assembly assembly, ILog logger) in C:\Users\MB\Desktop\DNN\Dnn.Platform-9.9.1_2\Dnn.Platform-9.9.1\DNN Platform\DotNetNuke.DependencyInjection\Extensions\TypeExtensions.cs:line 51
+2021-05-06 16:13:59.805+02:00 [DESKTOP-GC04ULQ][D:2][T:1][ERROR] DotNetNuke.Web.DependencyInjectionInitialize - Unable to configure services for System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, see exception for details 
+- LoaderException: Could not load file or assembly 'Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at DotNetNuke.DependencyInjection.Extensions.TypeExtensions.SafeGetTypes(Assembly assembly, ILog logger) in C:\Users\MB\Desktop\DNN\Dnn.Platform-9.9.1_2\Dnn.Platform-9.9.1\DNN Platform\DotNetNuke.DependencyInjection\Extensions\TypeExtensions.cs:line 51
+2021-05-06 16:15:00.875+02:00 [DESKTOP-GC04ULQ][D:2][T:1][ERROR] DotNetNuke.Web.DependencyInjectionInitialize - Unable to configure services for DotNetNuke, Version=9.9.0.0, Culture=neutral, PublicKeyToken=null, see exception for details 
+- LoaderException: Could not load file or assembly 'PetaPoco, Version=6.0.415.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at DotNetNuke.DependencyInjection.Extensions.TypeExtensions.SafeGetTypes(Assembly assembly, ILog logger) in C:\Users\MB\Desktop\DNN\Dnn.Platform-9.9.1_2\Dnn.Platform-9.9.1\DNN Platform\DotNetNuke.DependencyInjection\Extensions\TypeExtensions.cs:line 51
+2021-05-06 16:15:01.686+02:00 [DESKTOP-GC04ULQ][D:2][T:1][ERROR] DotNetNuke.Web.Extensions.StartupExtensions - Unable to configure services for DotNetNuke, Version=9.9.0.0, Culture=neutral, PublicKeyToken=null, see exception for details 
+- LoaderException: Could not load file or assembly 'PetaPoco, Version=6.0.415.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at DotNetNuke.DependencyInjection.Extensions.TypeExtensions.SafeGetTypes(Assembly assembly, ILog logger) in C:\Users\MB\Desktop\DNN\Dnn.Platform-9.9.1_2\Dnn.Platform-9.9.1\DNN Platform\DotNetNuke.DependencyInjection\Extensions\TypeExtensions.cs:line 51
+2021-05-06 16:15:01.852+02:00 [DESKTOP-GC04ULQ][D:2][T:1][ERROR] DotNetNuke.Web.Extensions.StartupExtensions - Unable to configure services for System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, see exception for details 
+- LoaderException: Could not load file or assembly 'Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at DotNetNuke.DependencyInjection.Extensions.TypeExtensions.SafeGetTypes(Assembly assembly, ILog logger) in C:\Users\MB\Desktop\DNN\Dnn.Platform-9.9.1_2\Dnn.Platform-9.9.1\DNN Platform\DotNetNuke.DependencyInjection\Extensions\TypeExtensions.cs:line 51
+2021-05-06 16:15:01.876+02:00 [DESKTOP-GC04ULQ][D:2][T:1][ERROR] DotNetNuke.Web.Extensions.StartupExtensions - Unable to configure services for System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, see exception for details 
+- LoaderException: Could not load file or assembly 'Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at DotNetNuke.DependencyInjection.Extensions.TypeExtensions.SafeGetTypes(Assembly assembly, ILog logger) in C:\Users\MB\Desktop\DNN\Dnn.Platform-9.9.1_2\Dnn.Platform-9.9.1\DNN Platform\DotNetNuke.DependencyInjection\Extensions\TypeExtensions.cs:line 51
+2021-05-06 16:15:06.927+02:00 [DESKTOP-GC04ULQ][D:2][T:6][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Application.ApplicationStatusInfo.get_Status() in C:\Users\MB\Desktop\DNN\Dnn.Platform-9.9.1_2\Dnn.Platform-9.9.1\DNN Platform\Library\Application\ApplicationStatusInfo.cs:line 55
+   at DotNetNuke.Common.Initialize.Init(HttpApplication app) in C:\Users\MB\Desktop\DNN\Dnn.Platform-9.9.1_2\Dnn.Platform-9.9.1\DNN Platform\Library\Common\Initialize.cs:line 48
+   at DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\MB\Desktop\DNN\Dnn.Platform-9.9.1_2\Dnn.Platform-9.9.1\DNN Platform\DotNetNuke.Web\Common\DotNetNukeHttpApplication.cs:line 233
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
